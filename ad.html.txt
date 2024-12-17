@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Themed Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <h1>Your Name</h1>
+            <p>Software Developer | Open Source Enthusiast</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>
+            Hello! I’m <strong>Your Name</strong>, a software developer with a passion for building impactful software solutions and contributing to open-source projects. I specialize in front-end and back-end technologies.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A responsive personal portfolio site built with HTML and CSS.</p>
+            <a href="https://github.com/yourusername/portfolio" target="_blank">GitHub Repo</a>
+        </div>
+        <div class="project">
+            <h3>Project 2: Blog Platform</h3>
+            <p>A full-stack blogging platform using React and Node.js.</p>
+            <a href="https://github.com/yourusername/blog" target="_blank">GitHub Repo</a>
+        </div>
+        <div class="project">
+            <h3>Project 3: API Service</h3>
+            <p>Developed a RESTful API using Express.js and MongoDB.</p>
+            <a href="https://github.com/yourusername/api-service" target="_blank">GitHub Repo</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js, Express</li>
+            <li>MongoDB, SQL</li>
+            <li>Git, GitHub</li>
+            <li>Responsive Web Design</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name | <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
